@@ -11,6 +11,13 @@ To [XpressClaw](https://github.com/XpressAI/xpressclaw), XpressAI's open-source 
 - Both merged with maintainer revisions and released in [v0.2.104](https://github.com/XpressAI/xpressclaw/releases/tag/v0.2.104)
 - Since the internship: desktop icon fixes [#217](https://github.com/XpressAI/xpressclaw/pull/217) and [#221](https://github.com/XpressAI/xpressclaw/pull/221)
 
+### Built
+
+[openai-compatible-model-registry](https://github.com/Noel-0/openai-compatible-model-registry) · Java, Quarkus
+[![test](https://github.com/Noel-0/openai-compatible-model-registry/actions/workflows/test.yml/badge.svg)](https://github.com/Noel-0/openai-compatible-model-registry/actions/workflows/test.yml)
+
+An authenticated `GET /v1/models` service: bearer tokens, exact and wildcard scopes, distinct 401 and 403, and authorization bound to the resource rather than the request path.
+
 ### How I work
 
 - Tests go in the same change as the feature ([workspace.spec.ts](https://github.com/XpressAI/xpressclaw/blob/main/frontend/e2e/workspace.spec.ts)).
